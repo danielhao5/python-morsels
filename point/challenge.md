@@ -1,12 +1,17 @@
-# Problem Statement
 
-Hiya!
+# Point
+
+by https://www.pythonmorsels.com
+Assigned from Intermediate Level on 09/16/2019
+
+Hi,
 
 This week I'd like you to write a class representing a 3-dimensional point.
 
 The Point class must accept 3 values on initialization (x, y, and z) and have x, y, and z attributes. It must also have a helpful string representation. Additionally, point objects should be comparable to each other (two points are equal if their coordinates are the same and not equal otherwise).
 
 Example usage:
+
 ```python
 >>> p1 = Point(1, 2, 3)
 >>> p1
@@ -23,6 +28,8 @@ Point(x=4, y=2, z=3)
 
 If you finish the base exercise quickly, consider working through a bonus or two.
 
+## Bonus 1
+
 For the first bonus, I'd like you to allow Point objects to be added and subtracted from each other. ✔️
 
 ```python
@@ -35,6 +42,8 @@ Point(x=5, y=7, z=9)
 Point(x=3, y=3, z=3)
 ```
 
+## Bonus 2
+
 For the second bonus, I'd like you to allow Point objects to be scaled up and down by numbers. ✔️
 
 ```python
@@ -43,6 +52,8 @@ For the second bonus, I'd like you to allow Point objects to be scaled up and do
 >>> p2
 Point(x=2, y=4, z=6)
 ```
+
+## Bonus 3
 
 For the third bonus, I'd like you to allow Point objects to be unpacked using multiple assignment like this ✔️:
 
@@ -53,4 +64,15 @@ For the third bonus, I'd like you to allow Point objects to be unpacked using mu
 (1, 2, 3)
 ```
 
-Automated tests for this week's exercise can be found here. You'll need to write your function in a module named point.py next to the test file. To run the tests you'll run "python test_point.py" and check the output for "OK". You'll see that there are some "expected failures" (or "unexpected successes" maybe). If you'd like to do the bonus, you'll want to comment out the noted lines of code in the tests file to test them properly.
+## Hints
+
+Hints for when you get stuck (hover over links to see what they're about):
+
+- [Creating a class](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&feature=youtu.be&t=99)
+- [Customizing string representations](https://www.youtube.com/watch?v=5cvM-crlDvg)
+- [Comparing equality of tuples](https://treyhunner.com/2019/03/python-deep-comparisons-and-code-readability/#Deep_equality)
+- [Adding class instances](https://thepythonguru.com/python-operator-overloading/)
+- [Allowing objects to be multiplied by numbers](http://www.openbookproject.net/thinkcs/python/english2e/ch15.html#operator-overloading)
+- [Handling operations with arbitrary types](https://docs.python.org/3/library/constants.html#NotImplemented)
+- [Multiple assignment and tuple unpacking](https://treyhunner.com/2018/03/tuple-unpacking-improves-python-code-readability/)
+- [Creating objects that work with multiple assignment](https://treyhunner.com/2018/06/how-to-make-an-iterator-in-python/#Generators_can_help_when_making_iterables_too)
